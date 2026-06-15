@@ -1,0 +1,39 @@
+{
+  "name": "octofit-tracker",
+  "version": "1.0.0",
+  "description": "OctoFit Tracker - Multi-tier application with user authentication, activity logging, team management, and competitive leaderboards",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend:dev": "npm --prefix octofit-tracker/frontend run dev",
+    "backend:dev": "npm --prefix octofit-tracker/backend run dev",
+    "frontend:build": "npm --prefix octofit-tracker/frontend run build",
+    "backend:build": "npm --prefix octofit-tracker/backend run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yu-sakai-777/skills-build-applications-w-copilot-agent-mode.git"
+  },
+  "keywords": [
+    "octofit",
+    "tracker",
+    "fitness",
+    "activity",
+    "leaderboard",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yu-sakai-777/skills-build-applications-w-copilot-agent-mode/issues"
+  },
+  "homepage": "https://github.com/yu-sakai-777/skills-build-applications-w-copilot-agent-mode#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
+
