@@ -1,22 +1,32 @@
 {
-  "name": "skills-build-applications-w-copilot-agent-mode",
+  "name": "octofit-tracker",
   "version": "1.0.0",
-  "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
+  "description": "OctoFit Tracker - Multi-tier application with user authentication, activity logging, team management, and competitive leaderboards",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend:dev": "npm --prefix octofit-tracker/frontend run dev",
+    "backend:dev": "npm --prefix octofit-tracker/backend run dev",
+    "frontend:build": "npm --prefix octofit-tracker/frontend run build",
+    "backend:build": "npm --prefix octofit-tracker/backend run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yu-sakai-777/skills-build-applications-w-copilot-agent-mode.git"
   },
-  "keywords": [],
+  "keywords": [
+    "octofit",
+    "tracker",
+    "fitness",
+    "activity",
+    "leaderboard",
+    "react",
+    "express",
+    "mongodb"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/yu-sakai-777/skills-build-applications-w-copilot-agent-mode/issues"
   },
